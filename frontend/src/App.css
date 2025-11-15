@@ -1,0 +1,51 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  background-color: #1c2025;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-container {
+  display: flex;
+  padding: 20px;
+}
+
+.watchlist-container {
+  width: 30%;
+  padding-right: 20px;
+}
+
+.chart-container {
+  width: 70%;
+  height: 80vh;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #4a4a4a;
+  cursor: pointer;
+}
